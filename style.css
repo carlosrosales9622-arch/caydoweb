@@ -1,0 +1,154 @@
+
+
+body {
+    background-color: white;
+    height: 100%;
+
+}
+.centrado { 
+    text-align: center;
+}
+
+
+.fondoimagen {
+    width: 100%;   /* ocupa todo el ancho de la pantalla */
+    max-width: 1500px;
+    height: 300px; /* altura de la sección */
+    display: flex;   /* usar flex para centrar texto */
+    margin: 0 auto;
+    align-items: center;    /* centra vertical */ 
+    justify-content: center; /* centra horizontal */
+    
+    background-repeat: no-repeat;/* no repetir imagen */
+
+    background-image: url(imagenes/imagencaydo.jpeg);  /* ruta relativa al CSS */
+     background-size: cover;  /* ocupa toda la sección sin deformar */
+     padding: 0 20px; /* espacio a los lados */
+     background-position: center;
+     
+}
+
+
+.contenedor-imagenes {
+    margin-top: 50px;
+    display:flex;  /* Flexbox permite alinear elementos en fila */
+    gap: 40px;   /* Espacio entre las imágenes */
+    justify-content: space-evenly;
+    height: 80vh;
+    align-items: flex-start;
+   
+    
+
+}
+
+
+ .cuadro1 {
+    background-color: #F7F9F9;
+    flex-basis:600px;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+    
+
+  
+}
+
+
+
+.cuadro2 {
+    flex-basis:600px;
+    width: 600px;
+    height: 400px ;
+    background-color:  #F7F9F9;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-grow: 1;
+    flex-shrink: 1;
+  
+
+}
+
+#imagen1 {
+    height: 400px;
+    float: left;
+    display: flex;
+}
+#imagen2 {
+    height: 400px;
+    display: flex;
+
+}
+
+
+
+
+p {
+    font-family: "Libre Baskerville", serif;
+    }
+    .cuadro2 img {
+        float: left;
+        
+    }
+     
+
+        .fondo-camisetas {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 30px;
+         justify-content: space-evenly;
+         align-items: flex-start;
+         background-color: #F7F9F9;
+         height: 100vh;
+         margin-top: 30px;
+        }
+    
+    .tamaño {
+        height: 400px;
+        width: 300px;
+
+    }
+    .cuadro-camiseta {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+    button {
+        height: 50px;
+        width: 100px;
+        border-color: black;
+        border-radius: 10px;
+        position: absolute;
+        margin-bottom: 10px;
+        font-family: "Libre Baskerville", serif;
+    }
+    .modelo-caydo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 50px;
+     
+    }
+
+    #modelo-caydo 
+    {
+        width: 800px;
+        height: 600px;
+        border: solid 5px gold;
+        border-radius: 10px;
+        height: 100vh;
+
+    }
+    #titulo2 {
+        text-align: center;
+        color: goldenrod;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+          .fondo-imagen {
+            background-color:  #F7F9F9;
+          }
